@@ -1,0 +1,8 @@
+sougaku=int(input("借金の総額"))
+hensai=int(input("返済金額"))
+bonus=int(input("ボーナスからの返済額"))
+
+num=sougaku/(hensai*12)
+num1=sougaku/((hensai*12)+bonus)
+print("返済にかかるのは%d年です"%(num))
+print("ボーナスで%d円払うなら%d年です"%(bonus,num1))
