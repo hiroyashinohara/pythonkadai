@@ -1,0 +1,6 @@
+ｘ=int(input("数値を入力してください "))
+if x+25000==3500*9:
+    print("OK")
+
+else:
+    print("Boo")
